@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('Test Elumini', () => {
-    it('Acessar "Onde usar meu cartão VR"', () => {
+    it('Go to "Onde usar meu cartão VR"', () => {
       // 
         cy.visit('https://www.vr.com.br')
         //test address
